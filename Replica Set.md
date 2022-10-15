@@ -1,0 +1,2 @@
+A set of connected [MongoDB](MongoDB.md) [instances](Instance.md) that store the **same data**. If something happens in one of the members in the replica set, the 
+data will remain intact and can be provided by the other members of the replica set.

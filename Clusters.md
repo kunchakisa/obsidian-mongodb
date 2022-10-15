@@ -1,0 +1,1 @@
+They are **group of servers** that stores data. These servers are configured in [replica set](Replica%20Set.md).

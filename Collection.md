@@ -1,0 +1,1 @@
+An organized store of [documents](Document.md) in [MongoDB](MongoDB.md), usually with common [fields](Field.md) between documents.

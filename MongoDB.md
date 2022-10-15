@@ -1,0 +1,2 @@
+## What is MongoDB
+It is a [NoSQL](NoSQL%20Database.md) document [database](Database.md) in which data is stored as **[documents](Document.md)**. Documents are stored in a **[collection of documents](Collection.md)**. Data is stored in a structured way, but **not** in the traditional way of tables with rows and columns.

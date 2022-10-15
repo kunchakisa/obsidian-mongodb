@@ -1,0 +1,1 @@
+It is a structured way to store and access data.

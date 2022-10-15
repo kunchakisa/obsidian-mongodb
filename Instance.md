@@ -1,0 +1,1 @@
+It is a single machine locally or in the cloud, running a certain software. 
