@@ -27,60 +27,9 @@ It is a fully managed database with wide range of applications, with [MongoDB](M
 - `clusterURI` refers to the unique Atlas cluster.
 - `database` is the name of the database we want to interact with.
 
-## Data Explorer
-
-- It is a feature in Atlas to view data in your MongoDB directly in the Atlas UI.
-- Navigate to it by going to `Cluster` -> `<Inside a cluster of your choice>` -> `Collections`.
-- Select a particular [namespace](Namespace.md), and we can interact with the documents in the selection.
-- You can see in there the **Collection Size**, **Total Documents**, and **Indexes Total Size**.
-- Below, you'll see the first 20 results out of many documents. You can filter them by typing a query in JSON format. 
-- It's recommended to try it by yourself with the sample dataset available in MongoDB Atlas.
-
-### Sample Filters
-
-- `{"state": "NY"}`
-- `{"state": "NY", "city": "ALBANY"}`
-
-### NOTE
-
-The instruction on how to go to the Data Exlorer in the video is **OUTDATED**. Here is what it looks like when you try to use the Data Explorer feature in Atlas (as of this writing).
-
-![](assets/20221016202830%20Data%20Explorer%20Screenshot.png)
-
-## Find Command
-
-- We can query results from our MongoDB instance with the **find** command.
-- **Pretty** command returns the documents result from the find command formatted for **ease of reading**.
-
-### Note
-- When you issued the find command without a query, the first 20 documents from the collection will show, but they appear without specific order. 
-- Use `show dbs` and `show collections` for available namespaces.
-- `find()` returns a cursor with documents that match the query.
-- `count()` returns the number of documents that match the query.
-- `pretty()` formats the documents in the cursor. It is formatted for ease of reading. 
-
-### Codes Used
-
-```BASH
-# All databases will be listed, including "admin" and "local", which are default database that is managed by Atlas.
-show dbs
-
-# To use the desired database... (ie, sample_training)
-use sample_training
-
-# List all the collections in there
-show collections
-
-# When we used the use command, the db will point to the database we used
-db.zips.find( {"state": "NY"} )
-db.zips.find( {"state": "NY"} ).count()
-
-# it iterates through the cursor if there's a lot of results.
-it
-it
-
-db.zips.find( {"state": "NY", "city": "ALBANY"} ).pretty()
-```
+## Subtopics
+- [Data Explorer](MongoDB%20Atlas/Data%20Explorer.md)
+- [Updating Data with Data Explorer](MongoDB%20Atlas/Updating%20Data%20with%20Data%20Explorer.md)
 
 ## Quiz
 

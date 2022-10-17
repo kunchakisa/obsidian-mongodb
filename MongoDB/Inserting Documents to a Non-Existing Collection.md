@@ -1,0 +1,3 @@
+By default, [MongoDB](../MongoDB.md) will **automatically** create a database and/or a collection for you if you tried to insert a data to a non-existing collection. You won't get an error if you do it. This is because MongoDB wants to keep creating database or collection for you **as simple as possible**.
+
+However, if you just use the `use database` command to a non-existent database, it won't be created **unless** you insert data.
