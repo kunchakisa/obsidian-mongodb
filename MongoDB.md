@@ -6,11 +6,19 @@
 - MongoDB uses [BSON](BSON.md) to **store data**, but that does not mean you can't store what you can in [JSON](JSON.md). Most of the time, BSON **can be represented** with JSON, as long as the JSON **supports the data type** used in it.
 
 ## Subtopics
+
 - [Importing and Exporting Data](MongoDB/Importing%20and%20Exporting%20Data.md)
 - [Find Command](MongoDB/Find%20Command.md)
 - [Inserting Data](MongoDB/Inserting%20Data.md)
 - [Updating Data](MongoDB/Updating%20Data.md)
 - [Deleting Documents and Collections](MongoDB/Deleting%20Documents%20and%20Collections.md)
+- [Query Operators](MongoDB/Query%20Operators.md)
+- The [Aggregation Framework](MongoDB/Aggregation%20Framework.md)
+- [Upsert](MongoDB/Upsert.md)
+
+## See Also
+
+- [Cursor Functions](MongoDB/Cursor%20Functions.md) (only applies to mongo shell, but may also apply to other drivers)
 
 ## Quiz
 

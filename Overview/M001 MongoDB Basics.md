@@ -25,3 +25,18 @@ Learn the fundamentals of MongoDB. [Visit the course](https://university.mongodb
 ## Chapter 4: Advanced CRUD Operations
 
 - [Query Operators](../MongoDB/Query%20Operators.md)
+- [Query Projection](../MongoDB/Query%20Projection.md)
+
+## Chapter 5:  Indexing and Aggregation Pipeline
+
+- [Aggregation Framework](../MongoDB/Aggregation%20Framework.md)
+- [Cursor Functions](../MongoDB/Cursor%20Functions.md)
+- [Index](../MongoDB/Index.md)
+- [Data Modeling](../Data%20Modeling.md)
+
+## Chapter 6: Next Steps
+
+I didn't bother make pages for these because it's more like a recommendation on what to do next, or some other tools.
+- [MongoDB Atlas (more features)](../MongoDB%20Atlas.md)
+- MongoDB Compass
+- Why MongoDB
