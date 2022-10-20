@@ -9,6 +9,8 @@
 - [Importing and Exporting Data](MongoDB/Importing%20and%20Exporting%20Data.md)
 - [Find Command](MongoDB/Find%20Command.md)
 - [Inserting Data](MongoDB/Inserting%20Data.md)
+- [Updating Data](MongoDB/Updating%20Data.md)
+- [Deleting Documents and Collections](MongoDB/Deleting%20Documents%20and%20Collections.md)
 
 ## Quiz
 
